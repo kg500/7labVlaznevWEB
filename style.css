@@ -5,6 +5,7 @@ body {
   margin: 0;
   background-image: url(images/background.jpg);
   font-family: "Times New Roman", Times, serif;
+  background-repeat: no-repeat;
 }
 
 .content {
@@ -20,6 +21,9 @@ body {
   border-radius: 10px;
   padding: 35px;
 }
+.content a {
+  font-size: 38px;
+}
 
 .button {
   text-align: center;
@@ -28,7 +32,7 @@ body {
   color: #fff;
   font-style: normal;
   font-weight: 800;
-  font-size: 32px;
+  font-size: 38px;
   line-height: 140%;
 }
 .button p {
@@ -36,8 +40,8 @@ body {
 }
 .button__rock {
   margin-top: 50px;
-  height: 50px;
-  width: 150px;
+  height: 60px;
+  width: 180px;
   margin-left: 50px;
   margin-right: 50px;
   background-color: rgb(30, 30, 30);
@@ -49,8 +53,8 @@ body {
 }
 .button__scissors {
   margin-top: 50px;
-  height: 50px;
-  width: 160px;
+  height: 60px;
+  width: 190px;
   margin-right: 50px;
   background-color: rgb(30, 30, 30);
   transition: all 0.3s;
@@ -61,8 +65,8 @@ body {
 }
 .button__paper {
   margin-top: 50px;
-  height: 50px;
-  width: 150px;
+  height: 60px;
+  width: 180px;
   margin-right: 50px;
   background-color: rgb(30, 30, 30);
   transition: all 0.3s;
@@ -73,8 +77,8 @@ body {
 }
 
 .box {
-  width: 1200px;
-  height: 450px;
+  width: 1000px;
+  height: 400px;
   margin-top: 50px;
   border: 25px;
   background-color: rgb(129, 107, 107);
@@ -82,23 +86,9 @@ body {
   border-radius: 10px;
   display: inline-block;
 }
+.box p {
+  font-size: 32px;
+}
 .box li {
   list-style: none;
-}
-
-.reload {
-  width: 300px;
-  height: 50px;
-  margin-top: 50px;
-  margin-left: 450px;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 32px;
-  line-height: 140%;
-  background-color: rgb(30, 30, 30);
-  transition: all 0.3s;
-  cursor: pointer;
-}
-.reload:hover {
-  background-color: rgb(80, 80, 80);
 }/*# sourceMappingURL=style.css.map */

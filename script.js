@@ -9,8 +9,9 @@ document.querySelector("#rockUser").onclick = function(){
     else if (rockUser && progValue === 3)
         alert("Вы проиграли");
     else alert("Ничья");
-    alert(`Предмет компьютера был ${progValue}`)
-    alert(`Нажмите на кнопку: начать игру заново`)
+
+
+    output();
 }
 
 document.querySelector("#scissorsUser").onclick = function(){
@@ -20,8 +21,9 @@ document.querySelector("#scissorsUser").onclick = function(){
     else if (scissorsUser && progValue === 1)
         alert("Вы проиграли");
     else alert("Ничья");
-    alert(`Предмет компьютера был ${progValue}`)
-    alert(`Нажмите на кнопку: начать игру заново`)
+
+
+    output();
 }
 document.querySelector("#paperUser").onclick = function(){
     const paperUser = 3;
@@ -30,10 +32,21 @@ document.querySelector("#paperUser").onclick = function(){
     else if (paperUser && progValue === 2)
         alert("Вы проиграли");
     else alert("Ничья");
-    alert(`Предмет компьютера был  ${progValue}`)
-    alert(`Нажмите на кнопку: начать игру заново`)
+
+
+    output();
 }
 
-document.querySelector("#reload").onclick = function(){
+function output(){
+    let string;
+    if (progValue === 1) 
+    string = 'Камень';
+    else if (progValue === 2)
+    string = 'Ножницы';
+    else string = 'Бумага';
+    string;
+    
+    alert(`Предмет компьютера был: ${string}`);
     document.location.reload();
 }
+

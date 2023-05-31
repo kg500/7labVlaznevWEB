@@ -5,6 +5,7 @@ body {
     margin: 0;
     background-image: url(images/background.jpg);
     font-family: 'Times New Roman', Times, serif;
+    background-repeat: no-repeat;
 }
 
 .content{
@@ -23,6 +24,10 @@ body {
     border-radius: 10px;
     padding: 35px;
 
+    a{
+        font-size: 38px;
+    }
+
     
 }
 
@@ -36,7 +41,7 @@ body {
 
     font-style: normal;
     font-weight: 800;
-    font-size: 32px;
+    font-size: 38px;
     line-height: 140%;
 
 
@@ -48,8 +53,8 @@ body {
     &__rock{
         margin-top: 50px;
 
-        height: 50px;
-        width: 150px;
+        height: 60px;
+        width: 180px;
 
         margin-left: 50px;
         margin-right: 50px;
@@ -65,8 +70,8 @@ body {
     &__scissors{
         margin-top: 50px;
 
-        height: 50px;
-        width: 160px;
+        height: 60px;
+        width: 190px;
         margin-right: 50px;
 
 
@@ -82,8 +87,8 @@ body {
     &__paper{
         margin-top: 50px;
 
-        height: 50px;
-        width: 150px;
+        height: 60px;
+        width: 180px;
 
         margin-right: 50px;
 
@@ -100,10 +105,14 @@ body {
 }
 
 .box{
-    width: 1200px;
-    height: 450px;
+    width: 1000px;
+    height: 400px;
     margin-top: 50px;
 
+    p{
+        font-size: 32px;
+    }
+    
 
     border: 25px;
 
@@ -117,22 +126,3 @@ body {
     }
 }
 
-.reload{
-    width: 300px;
-    height: 50px;
-    margin-top: 50px;
-    margin-left: 450px;
-
-    font-style: normal;
-    font-weight: 800;
-    font-size: 32px;
-    line-height: 140%;
-
-    background-color: rgb(30, 30, 30);
-    transition: all .3s;
-    cursor: pointer;
-
-    &:hover {
-    background-color: rgb(80, 80, 80);
-    }
-}
